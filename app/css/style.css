@@ -93,7 +93,16 @@ h6 {
   margin: 0px auto;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 801px;
+  width: 333px;
+}
+
 .header__top {
+  display: inline-block;
   width: 71.5px;
   height: 801px;
   background: #000000;
@@ -149,4 +158,64 @@ h6 {
 
 .logo8 {
   margin-top: 297.5px;
+}
+
+.header__main {
+  display: inline-block;
+  background: #25272A;
+  height: 801px;
+  width: 261.5px;
+  border-radius: 0px;
+  opacity: 0.75;
+}
+
+i {
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  opacity: 0.7;
+}
+
+.title__1 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 35.5px;
+  margin-left: 26px;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+.down {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.zezterna {
+  margin-top: 41.5px;
+  margin-left: 77.1px;
+}
+
+.oblako {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 22px;
+}
+
+.nomad__text1 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  padding-left: 11px;
+  margin-top: 30px;
+  color: #B5B5B5;
 }
