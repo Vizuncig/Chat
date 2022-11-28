@@ -88,8 +88,17 @@ h6 {
 
 .wrapper {
   min-height: 100%;
-  width: 1440px;
+  width: 1920px;
   margin: 0px auto;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #F4F9E2;
 }
 
 .header__texet {
@@ -99,18 +108,17 @@ h6 {
   /* identical to box height */
   letter-spacing: -0.035em;
   margin-top: 27px;
-  margin-left: 179px;
   color: #62D0DF;
 }
 
 .navigation {
   display: inline-block;
+  margin-top: 38px;
 }
 
 .nav__1 {
   font-size: 14px;
   line-height: 16px;
-  margin-left: 320px;
   color: #22356F;
   border-bottom: 2px solid;
   padding: 0 0 10px;
@@ -140,7 +148,9 @@ h6 {
 }
 
 .button__top {
-  margin-left: 319px;
+  position: relative;
+  z-index: 999999;
+  margin-top: 27px;
   width: 150px;
   height: 50px;
   color: #FFFFFF;
@@ -148,9 +158,96 @@ h6 {
   border-radius: 50px;
 }
 
-.nav__line {
-  width: 50px;
-  height: 2px;
-  background-color: #22356F;
-  margin-left: 590px;
+.header__main {
+  height: 840px;
+  background-color: #F4F9E2;
+}
+
+.header__texet1 {
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #62D0DF;
+  padding-top: 187px;
+  padding-left: 240px;
+}
+
+.header__texet2 {
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: -0.035em;
+  padding-left: 240px;
+  color: #22356F;
+  padding-top: 20px;
+}
+
+.header__texet3 {
+  font-size: 24px;
+  line-height: 42px;
+  padding-left: 240px;
+  padding-top: 20px;
+  color: #22356F;
+}
+
+.header__but1 {
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  background: #F9B640;
+  width: 150px;
+  height: 50px;
+  margin-left: 240px;
+  margin-top: 63px;
+}
+
+.header__but2 {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #FAB63E;
+  background: #F4F9E2;
+  margin-left: 38px;
+}
+
+#dude1 {
+  z-index: 2;
+  position: absolute;
+  vertical-align: middle;
+  left: 1050px;
+  top: -30px;
+}
+
+#gulf {
+  z-index: 1;
+  position: absolute;
+  vertical-align: middle;
+  left: 1050px;
+  top: -30px;
+}
+
+.main__block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #62D0DF;
+}
+
+.texet__1 {
+  padding-top: 153px;
+  padding-left: 178px;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+}
+
+.texet__2 {
+  padding-top: 75px;
+  font-size: 24px;
+  line-height: 35px;
+  padding-left: 178px;
+  color: #FFFFFF;
 }
