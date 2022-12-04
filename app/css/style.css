@@ -283,3 +283,126 @@ h6 {
   padding-top: 76px;
   color: rgba(34, 53, 111, 0.5);
 }
+
+.main__block3 {
+  position: relative;
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block3__line1 {
+  position: absolute;
+  width: 255px;
+  height: 72px;
+  left: 16%;
+  background: #FFE2DE;
+  -webkit-box-shadow: inset 0px -1px 0px #FFFFFF;
+          box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.block3__line2 {
+  position: absolute;
+  width: 255px;
+  height: 72px;
+  left: 34.5%;
+  background: #C4E769;
+  -webkit-box-shadow: inset 0px -1px 0px #FFFFFF;
+          box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.block3__line3 {
+  position: absolute;
+  width: 255px;
+  height: 72px;
+  left: 53.5%;
+  background: #62D0DF;
+  -webkit-box-shadow: inset 0px -1px 0px #FFFFFF;
+          box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.block3__line4 {
+  position: absolute;
+  width: 255px;
+  height: 72px;
+  left: 72%;
+  background: #0052C1;
+  -webkit-box-shadow: inset 0px -1px 0px #FFFFFF;
+          box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.block3__text1 {
+  padding-top: 95px;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  width: 360px;
+  height: 360px;
+  background: #FFE2DE;
+  text-align: center;
+}
+
+.block3__text2 {
+  padding-top: 95px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  width: 360px;
+  height: 360px;
+  background: #C4E769;
+}
+
+.block3__text3 {
+  padding-top: 95px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  width: 360px;
+  height: 360px;
+  background: #62D0DF;
+}
+
+.block3__text4 {
+  padding-top: 95px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+  width: 360px;
+  height: 360px;
+  background: #0052C1;
+}
+
+.sfer1 {
+  position: absolute;
+  top: 30%;
+  left: 16%;
+}
+
+.sfer2 {
+  position: absolute;
+  top: 30%;
+  left: 32.5%;
+}
+
+.sfer3 {
+  position: absolute;
+  top: 30%;
+  left: 53.5%;
+}
+
+.sfer4 {
+  position: absolute;
+  top: 30%;
+  left: 72.5%;
+}
