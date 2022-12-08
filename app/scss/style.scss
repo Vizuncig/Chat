@@ -286,7 +286,7 @@ h6 {
    color: rgba(34, 53, 111, 0.5);
 }
 
-.main__block3 {
+.main-block3 {
    position: relative;
    margin-top: 24px;
    display: flex;
@@ -400,4 +400,151 @@ h6 {
    position: absolute;
    top: 30%;
    left: 72.5%;
+}
+
+.main-block4 {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 1440px;
+   margin: 120px auto 0 auto;
+}
+
+.block4 {
+   position: absolute;
+   width: 340px;
+   height: 96px;
+   box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.line1 {
+   left: 5%;
+   background: #22356F;
+}
+
+.block4__text {
+   padding-top: 126px;
+   width: 480px;
+   height: 480px;
+   font-size: 32px;
+   line-height: 34px;
+   letter-spacing: -0.006em;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.text1 {
+   background: #22356F;
+}
+
+.line2 {
+   background: #0052C1;
+}
+
+.text2 {
+   background: #0052C1;
+}
+
+.line3 {
+   left: 72%;
+   background-color: #C4E769;
+}
+
+.text3 {
+   background-color: #C4E769;
+}
+
+.line4 {
+   left: 5%;
+   top: 50%;
+   background-color: #62D0DF;
+}
+
+.text4 {
+   background-color: #62D0DF;
+}
+
+.line5 {
+   top: 50%;
+   background-color: #DEE1FF;
+}
+
+.text5 {
+   background-color: #DEE1FF;
+}
+
+.line6 {
+   top: 50%;
+   left: 72%;
+   background-color: #8F00FF;
+}
+
+.text6 {
+   background-color: #8F00FF;
+}
+
+#sfer__1 {
+   position: absolute;
+   top: 14.5%;
+   left: 8%;
+}
+
+#sfer__2 {
+   position: absolute;
+   top: 14.5%;
+   left: 42%;
+}
+
+#sfer__3 {
+   position: absolute;
+   top: 14.5%;
+   left: 78%;
+}
+
+#sfer__4 {
+   position: absolute;
+   top: 64.5%;
+   left: 10%;
+}
+
+#sfer__5 {
+   position: absolute;
+   top: 64.5%;
+   left: 45%;
+}
+
+#sfer__6 {
+   position: absolute;
+   top: 64.5%;
+   left: 78%;
+}
+
+.main-block5 {
+   display: flex;
+   flex-wrap: wrap;
+   width: 1440px;
+   margin: 77px auto 0 auto;
+}
+
+.main-block5__text {
+   height: 240px;
+   width: 480px;
+}
+
+.main-block5__p1 {
+   padding-left: 105px;
+   font-size: 28px;
+   line-height: 33px;
+   letter-spacing: -0.03em;
+   color: #22356F;
+}
+
+.main-block5__p2 {
+   padding-left: 105px;
+   padding-top: 28px;
+   font-size: 16px;
+   line-height: 25px;
+   letter-spacing: -0.03em;
+   color: rgba(34, 53, 111, 0.5);
 }
