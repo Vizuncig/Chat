@@ -652,7 +652,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
