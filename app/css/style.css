@@ -89,7 +89,6 @@ h6 {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  max-width: 1440px;
   margin: 0px auto;
 }
 
@@ -121,6 +120,11 @@ h6 {
 @media (max-width: 767px) {
   .header__texet {
     margin-right: 50px;
+  }
+}
+@media (max-width: 365px) {
+  .header__texet {
+    margin-right: 25px;
   }
 }
 .navigation {
@@ -167,7 +171,12 @@ a.nav:hover {
 }
 @media (max-width: 767px) {
   .button__top {
-    margin-left: 100px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 365px) {
+  .button__top {
+    margin-right: 25px;
   }
 }
 .header__main {
@@ -224,6 +233,52 @@ a.nav:hover {
   margin-left: 38px;
 }
 
+@media (max-width: 992px) {
+  .header__texet1 {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  .header__texet2 {
+    padding-left: 100px;
+  }
+  .header__texet3 {
+    padding-left: 100px;
+  }
+  .header__but1 {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .header__texet1 {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .header__texet2 {
+    padding-left: 50px;
+  }
+  .header__texet3 {
+    padding-left: 50px;
+  }
+  .header__but1 {
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 365px) {
+  .header__texet1 {
+    padding-left: 25px;
+  }
+  .header__texet2 {
+    padding-left: 25px;
+  }
+  .header__texet3 {
+    padding-left: 25px;
+  }
+  .header__but1 {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+}
 #dude1 {
   z-index: 2;
   position: absolute;
@@ -232,14 +287,16 @@ a.nav:hover {
   top: -30px;
 }
 
-#gulf {
-  z-index: 1;
-  position: absolute;
-  vertical-align: middle;
-  left: 1050px;
-  top: -30px;
+@media (max-width: 992px) {
+  #dude1 {
+    display: none;
+  }
 }
-
+@media (max-width: 767px) {
+  #dude1 {
+    display: none;
+  }
+}
 .main__block1 {
   display: -webkit-box;
   display: -ms-flexbox;
