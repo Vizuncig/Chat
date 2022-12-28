@@ -181,7 +181,6 @@ a.nav:hover {
 }
 
 .header__main {
-   height: 840px;
    background-color: #F4F9E2;
 }
 
@@ -317,8 +316,6 @@ a.nav:hover {
    background: #62D0DF;
 }
 
-.thrive__text {}
-
 .texet__1 {
    padding-top: 153px;
    padding-left: 178px;
@@ -385,7 +382,6 @@ a.nav:hover {
 
 .main__block2 {
    background: #FFFFFF;
-   height: 361px;
 }
 
 
@@ -414,6 +410,39 @@ a.nav:hover {
    letter-spacing: 0.06em;
    padding-top: 76px;
    color: rgba(34, 53, 111, 0.5);
+}
+
+@media (max-width: 992px) {
+   .block2__text1 {
+      padding-top: 100px;
+
+   }
+
+   .block2__text3 {
+      padding-top: 50px;
+   }
+}
+
+@media (max-width: 767px) {
+   .block2__text1 {
+      padding-top: 50px;
+
+   }
+
+   .block2__text3 {
+      padding-top: 50px;
+   }
+}
+
+@media (max-width: 365px) {
+   .block2__text1 {
+      padding-top: 25px;
+
+   }
+
+   .block2__text3 {
+      padding-top: 25px;
+   }
 }
 
 .main-block3 {
