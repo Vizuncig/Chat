@@ -283,7 +283,7 @@ a.nav:hover {
   z-index: 2;
   position: absolute;
   vertical-align: middle;
-  left: 1050px;
+  left: 45%;
   top: -30px;
 }
 
@@ -321,6 +321,46 @@ a.nav:hover {
   color: #FFFFFF;
 }
 
+@media (max-width: 992px) {
+  .main__block1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .texet__1 {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  .texet__2 {
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .img__girl img {
+    max-width: 100%;
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+}
+@media (max-width: 767px) {
+  .texet__1 {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .texet__2 {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 365px) {
+  .texet__1 {
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .texet__2 {
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+}
 .main__block2 {
   background: #FFFFFF;
   height: 361px;
