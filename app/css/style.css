@@ -494,26 +494,13 @@ a.nav:hover {
   left: 16%;
 }
 
-.sfer2 {
+.sfer__1 {
   position: absolute;
   top: 30%;
-  left: 10%;
-}
-
-.sfer3 {
-  position: absolute;
-  top: 30%;
-  left: 16%;
-}
-
-.sfer4 {
-  position: absolute;
-  top: 30%;
-  left: 16%;
+  left: 9%;
 }
 
 .main-block4 {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,21 +509,21 @@ a.nav:hover {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 1440px;
+  max-width: 1440px;
   margin: 120px auto 0 auto;
 }
 
-.block4 {
+.main-block4__block {
+  position: relative;
+}
+
+.block4__line {
   position: absolute;
   width: 340px;
   height: 96px;
   -webkit-box-shadow: inset 0px -1px 0px #FFFFFF;
           box-shadow: inset 0px -1px 0px #FFFFFF;
-}
-
-.line1 {
-  left: 5%;
-  background: #22356F;
+  left: 16%;
 }
 
 .block4__text {
@@ -549,91 +536,29 @@ a.nav:hover {
   text-align: center;
   color: #FFFFFF;
 }
-
-.text1 {
+.block4__text.text1 {
   background: #22356F;
 }
-
-.line2 {
+.block4__text.text2 {
   background: #0052C1;
 }
-
-.text2 {
-  background: #0052C1;
-}
-
-.line3 {
-  left: 72%;
+.block4__text.text3 {
   background-color: #C4E769;
 }
-
-.text3 {
-  background-color: #C4E769;
-}
-
-.line4 {
-  left: 5%;
-  top: 50%;
+.block4__text.text4 {
   background-color: #62D0DF;
 }
-
-.text4 {
-  background-color: #62D0DF;
-}
-
-.line5 {
-  top: 50%;
+.block4__text.text5 {
   background-color: #DEE1FF;
 }
-
-.text5 {
-  background-color: #DEE1FF;
-}
-
-.line6 {
-  top: 50%;
-  left: 72%;
+.block4__text.text6 {
   background-color: #8F00FF;
 }
 
-.text6 {
-  background-color: #8F00FF;
-}
-
-#sfer__1 {
+#sfer2 {
   position: absolute;
-  top: 14.5%;
-  left: 8%;
-}
-
-#sfer__2 {
-  position: absolute;
-  top: 14.5%;
-  left: 42%;
-}
-
-#sfer__3 {
-  position: absolute;
-  top: 14.5%;
-  left: 78%;
-}
-
-#sfer__4 {
-  position: absolute;
-  top: 64.5%;
-  left: 10%;
-}
-
-#sfer__5 {
-  position: absolute;
-  top: 64.5%;
-  left: 45%;
-}
-
-#sfer__6 {
-  position: absolute;
-  top: 64.5%;
-  left: 78%;
+  top: 29%;
+  left: 24%;
 }
 
 .main-block5 {
@@ -642,7 +567,7 @@ a.nav:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 1440px;
+  max-width: 1440px;
   margin: 77px auto 0 auto;
 }
 
