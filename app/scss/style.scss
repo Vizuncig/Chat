@@ -446,48 +446,25 @@ a.nav:hover {
 }
 
 .main-block3 {
-   position: relative;
    margin-top: 24px;
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
 }
 
-.block3__line1 {
+.main-block3__block1 {
+   position: relative;
+}
+
+
+
+.block3__line {
    position: absolute;
    width: 255px;
    height: 72px;
    left: 16%;
-   background: #FFE2DE;
    box-shadow: inset 0px -1px 0px #FFFFFF;
 }
-
-.block3__line2 {
-   position: absolute;
-   width: 255px;
-   height: 72px;
-   left: 34.5%;
-   background: #C4E769;
-   box-shadow: inset 0px -1px 0px #FFFFFF;
-}
-
-.block3__line3 {
-   position: absolute;
-   width: 255px;
-   height: 72px;
-   left: 53.5%;
-   background: #62D0DF;
-   box-shadow: inset 0px -1px 0px #FFFFFF;
-}
-
-.block3__line4 {
-   position: absolute;
-   width: 255px;
-   height: 72px;
-   left: 72%;
-   background: #0052C1;
-   box-shadow: inset 0px -1px 0px #FFFFFF;
-}
-
 
 .block3__text1 {
    padding-top: 95px;
@@ -546,19 +523,19 @@ a.nav:hover {
 .sfer2 {
    position: absolute;
    top: 30%;
-   left: 32.5%;
+   left: 10%;
 }
 
 .sfer3 {
    position: absolute;
    top: 30%;
-   left: 53.5%;
+   left: 16%;
 }
 
 .sfer4 {
    position: absolute;
    top: 30%;
-   left: 72.5%;
+   left: 16%;
 }
 
 .main-block4 {
