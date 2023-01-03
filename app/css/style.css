@@ -89,6 +89,7 @@ h6 {
 .wrapper {
   min-height: 100%;
   margin: 0px auto;
+  overflow: hidden;
 }
 
 .header__top {
@@ -114,7 +115,7 @@ h6 {
   color: #62D0DF;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .header__texet {
     margin-right: 100px;
   }
@@ -170,7 +171,7 @@ a.menu__link:hover {
   display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .button__top {
     margin-left: 200px;
   }
@@ -349,7 +350,7 @@ a.menu__link:hover {
   margin-left: 38px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .header__texet1 {
     padding-top: 100px;
     padding-left: 100px;
@@ -403,7 +404,7 @@ a.menu__link:hover {
   top: -30px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   #dude1 {
     display: none;
   }
@@ -437,7 +438,7 @@ a.menu__link:hover {
   color: #FFFFFF;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .main__block1 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -508,7 +509,7 @@ a.menu__link:hover {
   color: rgba(34, 53, 111, 0.5);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .block2__text1 {
     padding-top: 100px;
   }
@@ -747,7 +748,7 @@ a.menu__link:hover {
   margin-bottom: 25px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .main-block6 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -856,7 +857,7 @@ a.menu__link:hover {
   margin-left: 180px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .main-block7 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -974,7 +975,7 @@ a.menu__link:hover {
   margin-left: 25px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .footer-block1 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
